@@ -1,0 +1,25 @@
+{
+  "name": "travel",
+  "version": "1.0.0",
+  "description": "travelling log\r log- entry\r *title - text\r *description-text\r *comment- text\r *rating- scale 1 to 10\r *image text - url\r *start date -datetime\r *end date - date time\r *latitute -number\r *longitute-number\r *created At-Date time\r Updated at- date time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishantkumar1308/travel_log.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishantkumar1308/travel_log/issues"
+  },
+  "homepage": "https://github.com/nishantkumar1308/travel_log#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0"
+  }
+}
