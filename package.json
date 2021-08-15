@@ -2,9 +2,11 @@
   "name": "travel",
   "version": "1.0.0",
   "description": "travelling log\r log- entry\r *title - text\r *description-text\r *comment- text\r *rating- scale 1 to 10\r *image text - url\r *start date -datetime\r *end date - date time\r *latitute -number\r *longitute-number\r *created At-Date time\r Updated at- date time",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint src/"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,8 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
     "nodemon": "^2.0.12"
   }
 }
