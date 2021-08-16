@@ -9,7 +9,7 @@ const errorHandler = (error, req, res, next) => {
   res.status(statusCode);
   res.json({
     message: "Not found",
-    stack: error.stack,
+    stack: process.env.NODE_ENV == "production" ? "chii" : error.stack,
   });
 };
 module.exports = {
