@@ -32,6 +32,8 @@ app.use(
   })
 );
 
+app.use(express.json()); //bodyparseing middleware
+
 app.get("/", (req, res) => {
   res.json({
     message: "hello world",
