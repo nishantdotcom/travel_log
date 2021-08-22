@@ -1,8 +1,7 @@
-import { token } from "morgan";
 import * as React from "react";
 import { useState, useEffect } from "react"; //use effect is used if we want to run function only once
 import ReactMapGL, { Marker } from "react-map-gl";
-import { listLogEntries } from "./API";
+import { listLogEntries } from "./API"; //api call
 const App = () => {
   const [logEntries, setLogEntries] = useState([]);
   const [viewport, setViewport] = useState({
