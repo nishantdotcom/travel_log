@@ -2,6 +2,8 @@ import * as React from "react";
 import { useState, useEffect } from "react"; //use effect is used if we want to run function only once
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import { listLogEntries } from "./API"; //api call
+import "./index.css";
+import LogEntryForm from "./logEntryForm";
 
 const App = () => {
   const [logEntries, setLogEntries] = useState([]);
@@ -157,7 +159,7 @@ const App = () => {
             anchor="top"
           >
             <div>
-              <h3>Add your new log Entry</h3>
+              <LogEntryForm />
             </div>
           </Popup>
         </>
