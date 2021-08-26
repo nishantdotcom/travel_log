@@ -6,6 +6,6 @@
   <p><b> Starting Up Database server :</b> npm run dev </p>
   <p><b> Starting Up React app :</b> npm start </p>
  
-  
+  <img src="screenshots/abc.png">
   
   
