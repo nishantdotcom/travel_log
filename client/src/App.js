@@ -111,6 +111,7 @@ const App = () => {
                 <i>
                   Last Visited:{new Date(entry.visitDate).toLocaleDateString()}
                 </i>
+                {entry.image && <img src={entry.image} alt={entry.title} />}
               </div>
             </Popup>
           ) : null}

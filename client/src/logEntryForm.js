@@ -20,8 +20,8 @@ const LogEntryForm = ({ location, onClose }) => {
     } catch (error) {
       console.log(error);
       setError(error.message);
+      setLoading(false);
     }
-    setLoading(false);
   };
 
   return (

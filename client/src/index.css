@@ -29,14 +29,6 @@ body {
   padding: 1rem;
 }
 
-.popup img {
-  height: 200px;
-  width: auto;
-  text-align: center;
-  margin: 0 auto;
-  display: block;
-}
-
 .entry-form label,
 .entry-form input,
 .entry-form textarea,
@@ -45,4 +37,12 @@ body {
   margin: 0.5rem 0;
   display: block;
   width: 100%;
+}
+
+.popup img {
+  height: 100px;
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
 }
